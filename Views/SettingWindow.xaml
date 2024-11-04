@@ -1,0 +1,88 @@
+﻿<Window
+    x:Class="ProductMonitor.Views.SettingWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:ProductMonitor.Views"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="系统配置"
+    Width="800"
+    Height="450"
+    Background="Transparent"
+    FontFamily="Microsoft YaHei"
+    FontWeight="ExtraLight"
+    ResizeMode="NoResize"
+    WindowStartupLocation="CenterOwner"
+    mc:Ignorable="d">
+
+    <Window.Resources>
+        <Style TargetType="RadioButton">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="Height" Value="20" />
+            <Setter Property="Margin" Value="3,0,3,0" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="Width" Value="120" />
+            <Setter Property="Height" Value="30" />
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="RadioButton">
+                        <Border Background="{TemplateBinding Background}">
+                            <ContentPresenter
+                                Margin="15,0"
+                                HorizontalAlignment="Left"
+                                VerticalAlignment="Center" />
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsChecked" Value="True">
+                    <Setter Property="Background" Value="Orange" />
+                    <Setter Property="Foreground" Value="White" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+
+    <WindowChrome.WindowChrome>
+        <WindowChrome GlassFrameThickness="-1" />
+    </WindowChrome.WindowChrome>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <!--  第一行  -->
+        <TextBlock
+            Margin="10,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Center"
+            FontWeight="Bold">
+            <Run FontFamily="/Resource/Font/#iconfont" Text="&#xe625;" />
+            <Run Foreground="Black" Text="系统配置信息" />
+        </TextBlock>
+
+        <!--  第二行  第一列 导航栏  -->
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.7*" />
+                <ColumnDefinition Width="4*" />
+            </Grid.ColumnDefinitions>
+            <Border BorderThickness="0,0,0.5,0" BorderBrush="Black">
+                <StackPanel>
+                    <RadioButton Content="设备清单" IsChecked="True" Tag="One" Click="RadioButton_Click"/>
+                    <RadioButton Content="环境监测" Tag="Two" Click="RadioButton_Click"/>
+                    <RadioButton Content="设备监测" Tag="Three" Click="RadioButton_Click"/>
+                    <RadioButton Content="配置一" Tag="Four" Click="RadioButton_Click"/>
+                    <RadioButton Content="配置二" Tag="Five" Click="RadioButton_Click"/>
+                </StackPanel>
+            </Border>
+
+            <!--  第二行 第二列  -->
+            <ScrollViewer Grid.Column="1" VerticalScrollBarVisibility="Hidden">
+                <Frame NavigationUIVisibility="Hidden" x:Name="NavigatePage" Source="SettingPage.xaml" />
+            </ScrollViewer>
+        </Grid>
+    </Grid>
+</Window>

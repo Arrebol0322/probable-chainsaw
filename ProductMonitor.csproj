@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>ProductMonitor.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resource\Font\digital_display.ttf" />
+    <None Remove="Resource\Font\iconfont.ttf" />
+    <None Remove="Resource\Picture\24gl-minimization.png" />
+    <None Remove="Resource\Picture\device.png" />
+    <None Remove="Resource\Picture\Logo.png" />
+    <None Remove="Resource\Picture\winfo-icon-最大化.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="ProductMonitor.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resource\Font\digital_display.ttf" />
+    <Resource Include="Resource\Font\iconfont.ttf" />
+    <Resource Include="Resource\Picture\device.png" />
+    <Resource Include="Resource\Picture\Logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LiveCharts.Wpf" Version="0.9.7" />
+    <PackageReference Include="NModbus4" Version="2.1.0" />
+    <PackageReference Include="System.IO.Ports" Version="8.0.0" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,100 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Work\\VS2022 Community\\My Project\\ProductMonitor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{10925914-0A30-450B-AF58-FD82C852C7B5}|ProductMonitor.csproj|d:\\work\\vs2022 community\\my project\\productmonitor\\myusercontrol\\radaruc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{10925914-0A30-450B-AF58-FD82C852C7B5}|ProductMonitor.csproj|solutionrelative:myusercontrol\\radaruc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10925914-0A30-450B-AF58-FD82C852C7B5}|ProductMonitor.csproj|d:\\work\\vs2022 community\\my project\\productmonitor\\myusercontrol\\ringuc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{10925914-0A30-450B-AF58-FD82C852C7B5}|ProductMonitor.csproj|solutionrelative:myusercontrol\\ringuc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10925914-0A30-450B-AF58-FD82C852C7B5}|ProductMonitor.csproj|d:\\work\\vs2022 community\\my project\\productmonitor\\myusercontrol\\workshopuc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{10925914-0A30-450B-AF58-FD82C852C7B5}|ProductMonitor.csproj|solutionrelative:myusercontrol\\workshopuc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10925914-0A30-450B-AF58-FD82C852C7B5}|ProductMonitor.csproj|d:\\work\\vs2022 community\\my project\\productmonitor\\myusercontrol\\monitoruc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{10925914-0A30-450B-AF58-FD82C852C7B5}|ProductMonitor.csproj|solutionrelative:myusercontrol\\monitoruc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RadarUC.xaml",
+              "DocumentMoniker": "D:\\Work\\VS2022 Community\\My Project\\ProductMonitor\\MyUserControl\\RadarUC.xaml",
+              "RelativeDocumentMoniker": "MyUserControl\\RadarUC.xaml",
+              "ToolTip": "D:\\Work\\VS2022 Community\\My Project\\ProductMonitor\\MyUserControl\\RadarUC.xaml",
+              "RelativeToolTip": "MyUserControl\\RadarUC.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-04T06:49:25.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RingUC.xaml",
+              "DocumentMoniker": "D:\\Work\\VS2022 Community\\My Project\\ProductMonitor\\MyUserControl\\RingUC.xaml",
+              "RelativeDocumentMoniker": "MyUserControl\\RingUC.xaml",
+              "ToolTip": "D:\\Work\\VS2022 Community\\My Project\\ProductMonitor\\MyUserControl\\RingUC.xaml",
+              "RelativeToolTip": "MyUserControl\\RingUC.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-04T06:49:20.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WorkShopUC.xaml",
+              "DocumentMoniker": "D:\\Work\\VS2022 Community\\My Project\\ProductMonitor\\MyUserControl\\WorkShopUC.xaml",
+              "RelativeDocumentMoniker": "MyUserControl\\WorkShopUC.xaml",
+              "ToolTip": "D:\\Work\\VS2022 Community\\My Project\\ProductMonitor\\MyUserControl\\WorkShopUC.xaml",
+              "RelativeToolTip": "MyUserControl\\WorkShopUC.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-04T06:49:11.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MonitorUC.xaml",
+              "DocumentMoniker": "D:\\Work\\VS2022 Community\\My Project\\ProductMonitor\\MyUserControl\\MonitorUC.xaml",
+              "RelativeDocumentMoniker": "MyUserControl\\MonitorUC.xaml",
+              "ToolTip": "D:\\Work\\VS2022 Community\\My Project\\ProductMonitor\\MyUserControl\\MonitorUC.xaml",
+              "RelativeToolTip": "MyUserControl\\MonitorUC.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-04T06:48:12.572Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
